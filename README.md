@@ -1,24 +1,17 @@
-# 📊 Análise de Vendas - FarmaVida
+# 📊 Análise de Performance e Tendências: FarmaVida
 
-## 🎯 Objetivo
-Analisar a evolução das vendas ao longo do tempo utilizando dados em Excel.
+Este projeto consiste em uma análise exploratória de dados (EDA) aplicada ao setor varejista farmacêutico. O objetivo é identificar padrões de consumo, sazonalidade e performance de vendas para suporte à tomada de decisão estratégica.
 
-## 🛠️ Ferramentas utilizadas
-- Python
-- pandas
-- matplotlib
+### 🎯 Objetivos do Projeto
+* **Identificar Sazonalidade:** Analisar períodos de maior volume de vendas.
+* **Performance por Categoria:** Avaliar grupos de produtos com maior giro.
+* **Insights de Negócio:** Gerar visualizações para saúde financeira da operação.
 
-## 📈 Resultado
+### 🛠 Tecnologias
+* **Linguagem:** Python
+* **Bibliotecas:** Pandas, Matplotlib, Seaborn
+* **Dados:** Arquivo Excel integrado (`vendas_farmavida.xlsx`)
 
-![Gráfico de Vendas](grafico_vendas.png)
-
-## 🔍 Insights
-- Crescimento de janeiro para fevereiro
-- Queda significativa em março
-- Possível perda de clientes ou redução de frequência de compra
-
-## 📁 Estrutura do projeto
-
-- analise.py → script de análise
-- vendas_farmavida.xlsx → base de dados
-- grafico_vendas.png → visualização gerada
+### 📈 Insights do Estudo
+1. Identificação de tendências mensais de consumo através de agrupamento de dados.
+2. Visualização gráfica de performance por categoria de produto.
